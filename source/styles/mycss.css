@@ -1,0 +1,125 @@
+
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+
+
+
+body{
+    font-family: Michroma,serif;
+    background: radial-gradient( #FB0909 40%, #121212 100%);
+}
+
+
+
+.nav-link {
+    color: rgb(13, 230, 24);
+}
+.navbar-nav .nav-link.active{
+    color: aliceblue;
+}
+.navbar-brand img{
+width: 40px;
+}
+.navbar-toggler{
+    background-color: rgba(245, 214, 16, 0.963);
+}
+.sidebar{
+    color: #BEFF00;
+    background: linear-gradient(232deg, #F30B0B 0%, #171616 100%, #fff 100%);
+}
+.card{
+    background: radial-gradient( #FB0909 40%, #121212 100%);
+    color: #BEFF00;
+}
+
+.carousel-inner{
+
+    margin-top: 2em;
+}
+
+p{
+    color: #BEFF00;
+}
+
+.slide{
+    margin: auto auto;
+}
+footer{
+color: antiquewhite;
+    background: linear-gradient(232deg, #F30B0B 0%, #171616 100%, #fff 100%);
+    height: 5em;
+    margin-top: 2em;
+    padding: 1.5em;
+}
+.f{
+    display: flex;
+}
+  .roma
+  {
+    width: 100%;
+    margin-top: 1em;
+  }  
+  
+  
+  .ben{
+    width: 100%;
+    margin-top: 1em;
+  }
+  .col-lg-12{
+    margin-top: 2em;
+  }
+  .text-dec a {
+    color: #78f435;
+    text-decoration: none;
+    font-size: x-large;
+  }
+
+  .call-anim {animation: myAnim 2s ease 0s infinite normal forwards;
+
+  }
+
+
+
+  @keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.spart{animation: spar 2s ease 0s infinite normal forwards;
+
+}
+@keyframes spar {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
