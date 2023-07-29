@@ -22,11 +22,11 @@ z-index: 1;
  }
 
 .video-text{
-    color: rgb(29, 10, 239);
+    color: rgb(239, 239, 10);
     z-index: 2;
     
 }
 .video-text h1{
     font-size: 100px;
-    font-style: italic;
+    font-style: italic;font-weight: 900;
 }
